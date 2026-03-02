@@ -1,0 +1,18 @@
+caps:
+    # Use a Windows-accessible absolute path because Appium server is running on Windows
+    app: C:/Users/gabri/OneDrive/Desktop/appgas/product_registration.apk
+    platformName: Android
+    deviceName: emulator-5554
+    automationName: UiAutomator2
+    appPackage: br.com.pztech.estoque
+    appActivity: br.com.pztech.estoque.Inicio
+    appWaitActivity: br.com.pztech.estoque.Inicio
+    avdArgs: -no-window
+    newCommandTimeout: 3600
+    autoGrantPermissions: true
+    autoAcceptAlerts: true
+    disableAndroidWatchers: true
+    resetKeyboard: true
+
+appium_lib:
+    server_url: http://127.0.0.1:4723/wd/hub
